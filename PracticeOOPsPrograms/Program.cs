@@ -27,6 +27,10 @@ namespace PracticeOOPsPrograms
             Counter.currentview = 500;
             Counter.visitedCount();
             Console.WriteLine("Now the view count is: {0}", Counter.currentview);
+
+            Console.WriteLine("\nInterface example");
+            Pig myPig = new Pig();  
+            myPig.animalSound();
             Console.ReadLine();
         }
     }
